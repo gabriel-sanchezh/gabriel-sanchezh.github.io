@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Gabriel Sánchez H."
-  avatar           : "/images/gabriel.png"
+  avatar           : "images/gabriel.png"
   bio              : "Economics student and research assistant"
   location         : "Costa Rica"
   employer         :
