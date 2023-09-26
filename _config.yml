@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Gabriel Sánchez H."
-  avatar           : "/images/profile.png"
+  avatar           : "profile.png"
   bio              : "Economics student and research assistant"
   location         : "San José, Costa Rica"
   employer         : "Universidad de Costa Rica (UCR)"
