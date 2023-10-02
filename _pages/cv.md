@@ -24,9 +24,7 @@ Honors and Awards
 
 Research
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* [Inflation Regimes in Latin America: Persistence and Dynamics](/research/regimes)
 
 
 
