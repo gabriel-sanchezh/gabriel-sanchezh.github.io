@@ -25,15 +25,26 @@ Honors and Awards
 Research
 ======
 * [Inflation Regimes in Latin America: Persistence and Dynamics](/research/regimes)
-
-
+* [Monetary Policy in Costa Rica: Effects and Transmision](/research/monetary)
+* [Assessing the Health of Costa Rica’s Elderly Population](/research/elderly)
 
 Experience
 ======
 * **Universidad de Costa Rica**
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * *Instituto de Investigaciones en Ciencias Econömicas* [*(IICE)*](https://iice.ucr.ac.cr/)
+  Research Assistant
+
+  * *Escuela de Economía* [*(EC)*](https://economia.ucr.ac.cr/)
+  Teaching Assistant
+    * EC4300 Microeconometría (Microeconometrics)
+    Under the supervision of Randall Romero Aguilar, Ph.D.
+
+    * EC2302 Economía Pública (Public)
+    Under the supervision of Juan A. Robalino Herrera, Ph.D.
+
+    * EC3201 Teoría Macroeconómica II (Intermediate Macro)
+
+    Under the supervision of Luis Hall Urrea, Ph.D.
 
 * Fall 2015: Research Assistant
   * Github University
