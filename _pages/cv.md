@@ -40,11 +40,12 @@ Experience
     Under the supervision of Randall Romero Aguilar, Ph.D.
 
     * EC2302 Economía Pública (Public)
-    Under the supervision of Juan A. Robalino Herrera, Ph.D.
+  
+      Under the supervision of Juan A. Robalino Herrera, Ph.D.
 
     * EC3201 Teoría Macroeconómica II (Intermediate Macro)
 
-    Under the supervision of Luis Hall Urrea, Ph.D.
+      Under the supervision of Luis Hall Urrea, Ph.D.
 
 * Fall 2015: Research Assistant
   * Github University
