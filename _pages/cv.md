@@ -28,29 +28,38 @@ Research
 * [Monetary Policy in Costa Rica: Effects and Transmision](/research/monetary)
 * [Assessing the Health of Costa Rica’s Elderly Population](/research/elderly)
 
+
+
 Experience
 ======
 * **Universidad de Costa Rica**
-  * *Instituto de Investigaciones en Ciencias Econömicas* [*(IICE)*](https://iice.ucr.ac.cr/)
-  Research Assistant
+  * [Instituto de Investigaciones en Ciencias Económicas](https://iice.ucr.ac.cr/)
 
-  * *Escuela de Economía* [*(EC)*](https://economia.ucr.ac.cr/)
-  Teaching Assistant
+    Research Assistant (May, 2022 - Current)
+
+  * [Escuela de Economía](https://economia.ucr.ac.cr/)
+
+    Teaching Assistant (August, 2022 - Current)
+
     * EC4300 Microeconometría (Microeconometrics)
-    Under the supervision of Randall Romero Aguilar, Ph.D.
+
+      Under the supervision of Randall Romero Aguilar, Ph.D.
 
     * EC2302 Economía Pública (Public)
-  
+
       Under the supervision of Juan A. Robalino Herrera, Ph.D.
 
     * EC3201 Teoría Macroeconómica II (Intermediate Macro)
 
       Under the supervision of Luis Hall Urrea, Ph.D.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* [Asamblea Legislativa de Costa Rica](http://www.asamblea.go.cr/SitePages/Inicio.aspx)
+
+  Legislative Associate (May - July, 2022)
+
+* [Konrad-Adenauer-Stiftung](https://www.kas.de/es/web/costa-rica)
+
+  Research Assistant, Internship (March - August, 2021)
 
 
 
