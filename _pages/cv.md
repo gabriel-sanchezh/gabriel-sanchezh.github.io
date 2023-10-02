@@ -6,8 +6,6 @@ author_profile: false
 redirect_from:
   - /resume
 ---
-%<object data="/files/CV-GabrielSanchez.pdf" width="1000" height="1000" type='application/pdf'></object>
-
 {% include base_path %}
 
 You can find a PDF copy of my CV [here](/files/CV-GabrielSanchez.pdf)
