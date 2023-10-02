@@ -6,6 +6,7 @@ author_profile: false
 redirect_from:
   - /resume
 ---
+<object data="/files/CV-GabrielSanchez.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 {% include base_path %}
 
@@ -93,6 +94,8 @@ Licenses and Certifications
 * Diploma in Youth Leadership and Social Innovation (2019)
 
   *Konrad-Adenauer-Stiftung*
+
+
 
 
 
