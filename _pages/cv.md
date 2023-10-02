@@ -12,10 +12,27 @@ redirect_from:
 Education
 ======
 * B.Sc. in Economics, Universidad de Costa Rica, 2023 (expected)
-****
-Work experience
+
+
+
+Honors and Awards
+=====
+* Winner, Research Contest, Latin American Reserve Fund, 2023
+* Third place, National Oratorical Contest, Asamblea Legislativa de Costa Rica, 2017
+
+
+
+Research
 ======
-* Summer 2015: Research Assistant
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+
+
+Experience
+======
+* **Universidad de Costa Rica**
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -24,7 +41,9 @@ Work experience
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
+
+
+
 Skills
 ======
 * Skill 1
@@ -34,7 +53,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Research
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
