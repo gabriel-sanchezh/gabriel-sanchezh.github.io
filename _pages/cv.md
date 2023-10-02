@@ -32,7 +32,7 @@ Research
 
 Experience
 ======
-* **Universidad de Costa Rica**
+* [Universidad de Costa Rica](https://www.ucr.ac.cr/)
   * [Instituto de Investigaciones en Ciencias Económicas](https://iice.ucr.ac.cr/)
 
     Research Assistant (May, 2022 - Current)
@@ -65,31 +65,49 @@ Experience
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Technical
+  * Python, R, Stata, LaTeX, gretl
+* Languages
+  * Spanish (native)
+  * English (advanced)
+  * German (intermediate)
+* Other
+  * Microsoft 365
 
-Research
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+
+Licenses and Certifications
+=====
+* Fundamentals of Quantitative Modeling (2023)
+
+  *Wharton School, on Coursera*
+
+* Diploma in Governance and Public Innovation (2022)
+
+  *Development Bank of Latin America*
+
+* Diploma in Public Policies for Democratic Development in Latin America (2021)
+
+  *Konrad-Adenauer-Stiftung*
+
+* Diploma in Youth Leadership and Social Innovation (2019)
+
+  *Konrad-Adenauer-Stiftung*
+
+
+
+Volunteering
+=====
+* Edunámica (2016-2018)
+
+  Collaboration in workshops about the Sustainable Development Goals (SDGs)
+
+* Fundación Ecovida (2016-2018)
+
+  Development of environmental education workshops for rural high schools.
+
+
+
+Other
+=====
+Interests: Finance, micro and macroeconomics, econometrics, computational economics, data analysis, development and public policies.
