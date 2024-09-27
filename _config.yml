@@ -9,10 +9,10 @@ minimal_mistakes_skin: "air"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gabriel Sánchez Hernández"
+title                    : "Gabriel Sánchez H."
 title_separator          : "-"
 name                     : &name "Gabriel Sánchez H"
-description              : &description "Economics student and research assistant"
+description              : &description "Economist, Researcher and Policy Advisor"
 url                      : https://gabriel-sanchezh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://gabriel-sanchezh.github.io/"
@@ -84,12 +84,12 @@ analytics:
 author:
   name             : "Gabriel Sánchez H."
   avatar           : "profile.png"
-  bio              : "Economics student and research assistant"
+  bio              : "Economist, Researcher and Policy Advisor"
   location         : "San José, Costa Rica"
   employer         : "Universidad de Costa Rica"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   #googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :  "gsanchezhernandez2001@gmail.com"
+  email            :  "gabriel.sanchezhernandez@outlook.com"
   researchgate     :  "https://www.researchgate.net/profile/Gabriel_Sanchez16"
   uri              :
   bitbucket        :

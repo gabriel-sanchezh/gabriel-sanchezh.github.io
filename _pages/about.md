@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website. I am a student and teaching assistant in the [Department of Economics](https://economia.ucr.ac.cr/es) at [Universidad de Costa Rica](https://www.ucr.ac.cr/). Additionally, I work as a research assistant at [IICE](https://iice.ucr.ac.cr/).
+Welcome to my website. I am an economist graduated from the [School of Economics](https://economia.ucr.ac.cr/es) at the [University of Costa Rica](https://www.ucr.ac.cr/). Currenly, I work as a financial data associate at [Moody's Ratings](https://moodys.com/).
 
-I have a wide range of interests that include finance, macroeconomics, econometrics, public policy, and industrial organization. On my website, I share insights and experiences related to these interests. Please do not hesitate to reach out to me for any inquiries or collaborations.
+I serve as a public policy advisor in the [Legislative Assembly of Costa Rica](https://www.asamblea.go.cr/SitePages/Inicio.aspx), where I also conduct macroeconomic research about inflation.
+
+My wide range of interests include econometrics, macroeconomics, corporate finance, and industrial organization. On my website, I share insights and experiences related to these interests. Please do not hesitate to reach out to me for any inquiries or collaborations.
