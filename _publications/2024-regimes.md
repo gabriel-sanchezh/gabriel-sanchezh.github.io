@@ -11,12 +11,9 @@ venue: 'None'
 ---
 
 **Abstract**
-
 This study employs and tests a novel framework to uncover inflation regimes, their dynamics and persistence, and the inflation drivers across nine Latin American countries throughout the 2008-2023 period. A Multivariate Gaussian Hidden Markov Model (MGHMM) with variational Bayesian inference is used to achieve this. The study further employs a Mahalanobis distance-based measure to examine the influence of various drivers on inflation regimes, categorized as monetary policy, international factors, demand-pull factors, expectations, and cost-push factors. The findings reveal that monetary policy instruments significantly impact inflation, especially during economic disruptions. International factors, including international inflation and exchange rates, are also prominent drivers, particularly in Chile, the Dominican Republic, Mexico, and Peru. Private expenditure emerges as the strongest demand-pull factor, with its influence amplified during the pandemic. Finally, inflation expectations and producer prices consistently influence inflation across all the countries examined.
 
 **Keywords** 
-
 Inflation Regimes, Inflation Determinants; Latin America
 
 **Draft**
-
