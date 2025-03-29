@@ -18,6 +18,5 @@ This study employs and tests a novel framework to uncover inflation regimes, the
 
 Inflation Regimes, Inflation Determinants; Latin America
 
-**Info**
+**Draft**
 
-This research was initially intended to cover only Latin American countries, and named Inflation Regimes, Inflation Determinants; Latin America. Currently, I am expanding it to Emerging Markets. Find the draft pdf [here](/files/bayesianregimes.pdf).
