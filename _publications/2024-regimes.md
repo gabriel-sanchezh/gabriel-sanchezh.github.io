@@ -18,7 +18,3 @@ Inflation Regimes, Inflation Determinants; Latin America
 
 **Draft**
 Find the draft document [here](/files/bayesianregimes.pdf)
-
-**Media coverage**
-- Núñez, M. (2023, September 13). Estudiante de la UCR gana primer lugar del premio del Fondo Latinoamericano de Reservas, *Semanario Universidad*. [Link](https://semanariouniversidad.com/universitarias/estudiante-de-economia-de-la-ucr-gano-primer-lugar-del-premio-del-fondo-latinoamericano-de-reservas/).
-- Condega, X. (2023, September 15). Estudiante de la UCR gana primer lugar del premio del Fondo Latinoamericano de Reservas, *El Mundo*. [Link](https://elmundo.cr/costa-rica/estudiante-de-la-ucr-gana-primer-lugar-del-premio-del-fondo-latinoamericano-de-reservas/).
