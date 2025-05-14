@@ -1,20 +1,22 @@
 ---
-title: "Teaching experience 2"
+title: "Public Economics"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "TA: Undergraduate"
+permalink: /teaching/EC3201-I2023
+venue: "University of Costa Rica"
+date: 2023-03-01
+location: "San José, Costa Rica"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
+General Facts
 ======
 
-Heading 2
-======
+Responsible teacher: Prof. Juan Robalino, PhD
 
-Heading 3
+The main objective of this course is to provide the ability to understand and analyze public
+economic problems using a formal approach.
+
+Bibliography
 ======
+1. Gruber, J. (2022). *Public Finance and Public Policy*. Macmillan Education.
+2. Lafont, J. (2008). *Fundamentals of Public Economics*. MIT Press.
