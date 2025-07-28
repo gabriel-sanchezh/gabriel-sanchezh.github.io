@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website. I am an economist graduated from the [University of Costa Rica](https://www.ucr.ac.cr/). Currently, I work as a data specialist at [Moody's](https://moodys.com/).
+I am a master’s student in Economics at [Heidelberg University](https://www.awi.uni-heidelberg.de/en), with a focus on macroeconomics and financial econometrics.
 
-My wide range of interests include econometrics, macroeconomics, and finance. On my website, I share insights and experiences related to these interests.
+My academic background includes a bachelor’s degree in economics from the [University of Costa Rica](https://economia.ucr.ac.cr/), where I served as a teaching assistant for International Macroeconomics, Public Economics, and Econometrics for undergraduates. I also worked as a research assistant at the Economic Sciences Research Institute (IICE), contributing to empirical projects on fiscal policy, labor markets, and the impact of monetary policy on inequality.
+
+My academic interests lie in macroeconomics, econometrics, and finance. An example of this agenda is my study on inflation regimes in the Latin American region, which can be found [here](/research/bayesianregimes).
+
+I have experience in both the public and private sectors: I have advised on public policy and legislation, and held data-focused roles in the financial industry, applying quantitative methods to support economic and strategic decision-making.
