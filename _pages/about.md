@@ -3,7 +3,7 @@ permalink: /
 title: "Hello!"
 excerpt: "About me"
 header:
-  overlay_image: /images/UniHei.jpg
+  overlay_image: ./images/UniHei.jpg
 author_profile: true
 redirect_from: 
   - /about/
