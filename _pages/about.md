@@ -1,9 +1,7 @@
 ---
 permalink: /
 title: "Hello!"
-excerpt: "About me"
-header:
-  overlay_image: /images/UniHei.jpg
+excerpt: "Homepage"
 author_profile: true
 redirect_from: 
   - /about/
