@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "aqua"
 
 # Site Settings
 locale                   : "en-US"
@@ -85,12 +85,12 @@ author:
   name             : "Gabriel Sánchez H."
   avatar           : "profile.png"
   bio              : "Economist and Researcher"
-  location         : "San José, Costa Rica"
-  employer         : "Universidad de Costa Rica"
+  location         : "Heidelberg, Germany"
+  employer         : "Heidelberg University"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   #googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :  "gabriel.sanchezhernandez@outlook.com"
-  researchgate     :  "https://www.researchgate.net/profile/Gabriel_Sanchez16"
+  researchgate     :  #"https://www.researchgate.net/profile/Gabriel_Sanchez16"
   uri              :
   bitbucket        :
   codepen          :
@@ -104,7 +104,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : #"gabrielsanchezh"
+  linkedin         : "gabrielsanchezh"
   orcid            : #"http://orcid.org/0009-0003-3339-1933"
   pinterest        :
   soundcloud       :
