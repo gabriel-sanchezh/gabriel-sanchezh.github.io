@@ -31,7 +31,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -85,12 +85,12 @@ author:
   name             : "Gabriel Sánchez H."
   avatar           : "profile.png"
   bio              : "Economist and Researcher"
-  location         : "Heidelberg, Germany"
+  location         : "Mannheim, Germany"
   employer         : "Heidelberg University"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   #googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :  "gabriel.sanchezhernandez@outlook.com"
-  researchgate     :  #"https://www.researchgate.net/profile/Gabriel_Sanchez16"
+  #researchgate     :  #"https://www.researchgate.net/profile/Gabriel_Sanchez16"
   uri              :
   bitbucket        :
   codepen          :
