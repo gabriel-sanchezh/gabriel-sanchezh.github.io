@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am an M.Sc. candidate in Economics at [Heidelberg University](https://www.awi.uni-heidelberg.de/en). I hold a BSc in Economics from the [University of Costa Rica](https://economia.ucr.ac.cr/), where I worked as a teaching assistant and research assistant at the [Economic Sciences Research Institute (IICE)](https://iice.ucr.ac.cr/).
+I am an M.Sc. student in Economics at [Heidelberg University](https://www.awi.uni-heidelberg.de/en). I hold a BSc in Economics from the [University of Costa Rica](https://economia.ucr.ac.cr/), where I worked as a teaching assistant and research assistant at the [Economic Sciences Research Institute (IICE)](https://iice.ucr.ac.cr/).
 
 My research interests include macroeconomics, monetary policy, and econometrics. You can find my CV [here](https://drive.google.com/file/d/1V3e0Lt_hMumittRpfDoBhkLnTM5cuDsC/view?usp=sharing).
