@@ -460,3 +460,35 @@ h1.display {
   margin-top: 0.85rem;
   border: 1px solid var(--border);
 }
+
+/* Institution links in timeline entries */
+.xp-org a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.xp-org a:hover {
+  color: var(--accent);
+}
+
+/* Italic workplace description shown before the role bullets */
+.xp-desc {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  margin: 0 0 0.35rem;
+}
+
+/* Bullet lists inside timeline entries */
+.xp-entry ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+}
+
+.xp-entry ul li {
+  margin-bottom: 0.35rem;
+}
