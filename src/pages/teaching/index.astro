@@ -1,0 +1,32 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const teaching = (await getCollection("teaching")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Base title="Teaching | Gabriel Sánchez H.">
+  <h1>Teaching</h1>
+  <p class="lede">
+    Courses I have taught as Lead Teaching Assistant at the University of
+    Costa Rica.
+  </p>
+  <ul class="item-list">
+    {
+      teaching.map((course) => (
+        <li>
+          <h3>
+            <a href={`/teaching/${course.id}/`}>{course.data.title}</a>
+          </h3>
+          <span class="item-meta">
+            {course.data.semester}
+            {course.data.professor && ` · ${course.data.professor}`}
+          </span>
+          <p>{course.data.description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

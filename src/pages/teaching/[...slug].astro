@@ -1,0 +1,27 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const teaching = await getCollection("teaching");
+  return teaching.map((course) => ({
+    params: { slug: course.id },
+    props: { course },
+  }));
+}
+
+const { course } = Astro.props;
+const { Content } = await render(course);
+const { title, description, semester, professor, institution } = course.data;
+---
+
+<Base title={`${title} | Teaching | Gabriel Sánchez H.`} description={description}>
+  <article class="prose">
+    <h1>{title}</h1>
+    <p class="muted">
+      {semester}
+      {professor && ` · ${professor}`} · {institution}
+    </p>
+    <Content />
+  </article>
+</Base>

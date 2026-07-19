@@ -1,0 +1,87 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Gabriel Sánchez H. — M.Sc. Economics, Heidelberg University. Macroeconomics, monetary policy, applied econometrics.",
+} = Astro.props;
+
+const SITE_NAME = "Gabriel Sánchez H.";
+
+const navItems = [
+  { href: "/", label: "About" },
+  { href: "/research/", label: "Research" },
+  { href: "/teaching/", label: "Teaching" },
+];
+
+const currentPath = Astro.url.pathname;
+const isCurrent = (href: string) =>
+  href === "/" ? currentPath === "/" : currentPath.startsWith(href);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <script is:inline>
+      const saved = localStorage.getItem("theme");
+      if (saved) document.documentElement.dataset.theme = saved;
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="/">{SITE_NAME}</a>
+      <nav class="site-nav">
+        {
+          navItems.map((item) => (
+            <a
+              href={item.href}
+              aria-current={isCurrent(item.href) ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          ))
+        }
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Toggle dark mode">◐</button
+        >
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <span>© {new Date().getFullYear()} {SITE_NAME}</span>
+      <span>
+        <a href="https://github.com/gabriel-sanchezh">GitHub</a>
+        {" · "}
+        <a href="https://www.linkedin.com/in/gabrielsanchezh">LinkedIn</a>
+        {" · "}
+        <a href="mailto:gabriel.sanchezhernandez@outlook.com">Email</a>
+      </span>
+    </footer>
+    <script is:inline>
+      document.getElementById("theme-toggle").addEventListener("click", () => {
+        const root = document.documentElement;
+        const isDark =
+          root.dataset.theme === "dark" ||
+          (!root.dataset.theme &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches);
+        const next = isDark ? "light" : "dark";
+        root.dataset.theme = next;
+        localStorage.setItem("theme", next);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const research = await getCollection("research");
+  return research.map((project) => ({
+    params: { slug: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const {
+  title,
+  description,
+  date,
+  note,
+  abstract,
+  keywords,
+  conclusions,
+  materials,
+  packages,
+  colab,
+  notebook,
+  app,
+  appHeight,
+} = project.data;
+---
+
+<Base title={`${title} | Gabriel Sánchez H.`} description={description}>
+  <article class="prose">
+    <h1>{title}</h1>
+    <p class="muted">
+      {
+        date.toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+        })
+      }
+      {note && <span> · {note}</span>}
+    </p>
+
+    {
+      keywords.length > 0 && (
+        <ul class="chips">
+          {keywords.map((kw) => (
+            <li class="chip chip--kw">{kw}</li>
+          ))}
+        </ul>
+      )
+    }
+
+    {
+      (colab || notebook) && (
+        <div class="notebook-actions">
+          {colab && (
+            <a href={colab} target="_blank" rel="noopener">
+              ▶ Open in Colab
+            </a>
+          )}
+          {notebook && (
+            <a href={notebook} download>
+              ↓ Download notebook (.ipynb)
+            </a>
+          )}
+        </div>
+      )
+    }
+
+    {
+      app && (
+        <div class="app-embed">
+          <iframe
+            src={app}
+            style={`height: ${appHeight}px`}
+            title={`Interactive demo: ${title}`}
+            loading="lazy"
+          />
+          <p class="app-note">
+            Interactive — Python runs in your browser. The first load takes a
+            few seconds while the runtime downloads.
+          </p>
+        </div>
+      )
+    }
+
+    {
+      abstract && (
+        <>
+          <h2>Abstract</h2>
+          <p>{abstract}</p>
+        </>
+      )
+    }
+
+    {
+      conclusions.length > 0 && (
+        <>
+          <h2>Conclusions</h2>
+          <ul>
+            {conclusions.map((c) => (
+              <li>{c}</li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+
+    {
+      materials.length > 0 && (
+        <>
+          <h2>Materials</h2>
+          <div class="notebook-actions">
+            {materials.map((m) => (
+              <a href={m.href}>{m.label}</a>
+            ))}
+          </div>
+        </>
+      )
+    }
+
+    {
+      packages.length > 0 && (
+        <>
+          <h2>Code</h2>
+          <ul class="chips">
+            {packages.map((p) => (
+              <li class="chip chip--pkg">{p}</li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+
+    <Content />
+  </article>
+</Base>
