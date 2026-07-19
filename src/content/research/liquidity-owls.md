@@ -2,7 +2,7 @@
 title: "Liquidity Owls: A High-Frequency Estimation of Integrated Variance"
 description: "Replicating and extending Hansen & Lunde (2005) on 1-second Nasdaq quotes: how to combine the overnight return with intraday realized variance."
 date: 2026-07-01
-note: "Term paper — Topics in Financial Econometrics, Heidelberg University. Working paper."
+note: "Working paper."
 abstract: "I revisit the problem of measuring the integrated variance of a full trading day when high-frequency data exist only for the active trading session. Following Hansen and Lunde (2005), I combine the squared overnight return with a Newey–West-corrected realized variance of the open-to-close period, with weights chosen to minimize the mean-squared error among conditionally unbiased estimators. I apply the estimator to one-second best bid and offer quotations for the 30 components of the Dow Jones Industrial Average and three index ETFs over 2,034 trading days from May 2018 to June 2026. The qualitative structure of the original study survives: intraday measures dominate, yet the overnight return always retains informative weight."
 keywords:
   - high-frequency data
